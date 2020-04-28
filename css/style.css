@@ -93,8 +93,8 @@
 }
 
 
-.part {display: none;}
-.part:target{display: block;}
+/*.part {display: none;}
+.part:target{display: block;}*/
 
 .topnav{
 	height: 50px;
