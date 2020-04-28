@@ -209,7 +209,8 @@ audio{
 	position: absolute;
 	bottom: 12px;
 	left: 0px;
-	
+	transform: translate(0px, 0px);
+	transition: transform 0.55s ease;
 }
 
 
@@ -372,6 +373,10 @@ html:hover .about ul li{
 #toggler:checked ~ .nav-items{
 	/*transform: scaleY(1);*/
 	transform: translateX(0px);
+}
+#toggler:checked ~ #Artia{
+	transform: translate(150px, -147px);
+	
 }
 .navlabel{
 	
